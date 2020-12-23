@@ -1,4 +1,5 @@
 ### Hi there 👋
+[![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=btea)](https://github.com/anuraghazra/github-readme-stats)
 
 <!--
 **btea/btea** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
