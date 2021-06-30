@@ -40,6 +40,41 @@ function generateText(params) {
     return svg;
 }
 
+function animateWord(params) {
+    const textCopy = `fill: none;stroke-dasharray: 7% 28%;stroke-width: 3px;`;
+    const texts = [
+        { color: '#360745', v: '7%' },
+        { color: '#D61C59', v: '14%' },
+        { color: '#E7D84B', v: '21%' },
+        { color: '#EFEAC5', v: '28%' },
+        { color: '#1B8798', v: '35%' }
+    ];
+    params.text = params.text || 'btea'
+    const svg = `
+        <svg 
+            xmlns="http://www.w3.org/2000/svg" version="1.1"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 0 ${params.width} ${params.height}"
+            width="${params.width}px" height="${params.height}px"
+        >   
+            <rect rx="10" ry="10" width="${params.width}" height="${params.height}" style="background: #1a1b27;"></rect>
+            <symbol id="s-text">
+                <text text-anchor="middle" x="50%" y="50%" style="font-size:2em;">${params.text}</text>
+            </symbol>
+            <g>
+            ${texts
+                .map(t => {
+                    return `<use xlink:href="#s-text" style="${textCopy}stroke:${t.color};stroke-dashoffset:${t.v};">
+                    <animate attributeName="stroke-dashoffset" from="${t.v}" to="35%" dur="9s" repeatCount="indefinite" />
+                    <animate attributeName="stroke-dasharray" from="7% 28%" to="0 87.5%" dur="9s" repeatCount="indefinite" />
+                </use>`;
+                })
+                .join('')}
+            </g>
+        </svg>   
+    `;
+    return svg;
+}
 
 function generateSvg(params) {
     const obj = {
@@ -56,6 +91,9 @@ function generateSvg(params) {
     }
     if (type === 'text') {
         img = generateText(params);
+    }
+    if (type === 'animate') {
+        img = animateWord(params);
     }
     return img;
 }
