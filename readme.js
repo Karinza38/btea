@@ -18,6 +18,17 @@ function generateCircle(params) {
 }
 
 function generateText(params) {
+    /**
+     * svg path A参数说明
+     * A rx ry x-axis-rotation large-arc-flag sweep-flag x y
+     * rx: x轴半径
+     * ry: y轴半径
+     * x-axis-rotation: 指椭圆的X轴与水平方向顺时针方向夹角，可以想象成一个水平的椭圆绕中心点顺时针旋转的角度
+     * large-arc-flag: 1表示大角度弧线，0为小角度弧线
+     * sweep-flag: 1为顺时针方向，0位逆时针方向
+     * x: 结束点x坐标
+     * y: 结束点y坐标
+     */
     const svg = `<svg width="${params.width}" height="${params.height}" viewBox="0 0 ${params.width} ${params.height}" version="1.1" xmlns="http://www.w3.org/2000/svg">
         <defs>
             <path id="textCircle" d="M 20 100 A 80 80 0 0 1 180 100 A 80 80 0 0 1 20 100" fill="none" stroke="#333"></path>
