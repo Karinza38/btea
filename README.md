@@ -2,9 +2,9 @@
 <!--
 [![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=btea&show_icons=true&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
 -->
-[![svg test](https://btea.site/fileApi/image?username=btea&color=aqua)](https://github.com)
-[![svg test](https://btea.site/fileApi/image?username=btea&type=text&text=天空高远，大风吟唱······)](https://github.com)
-[![svg test](https://btea.site/fileApi/image?type=animate&text=天空高远，大风吟唱······&width=450)](https://github.com)
+<!-- [![svg test](https://btea.site/fileApi/image?username=btea&color=aqua)](https://github.com) -->
+<!-- [![svg test](https://btea.site/fileApi/image?username=btea&type=text&text=天空高远，大风吟唱······)](https://github.com) -->
+<!-- [![svg test](https://btea.site/fileApi/image?type=animate&text=天空高远，大风吟唱······&width=450)](https://github.com) -->
 
 <!--![](https://visitor-badge.glitch.me/badge?page_id=btea.btea)-->
 <!--
