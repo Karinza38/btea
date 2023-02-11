@@ -1,4 +1,5 @@
-### Hi there 👋
+![hello world](https://octodex.github.com/images/NUX_Octodex.gif)
+<!-- ### Hi there 👋 -->
 <!--
 [![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=btea&show_icons=true&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
 -->
