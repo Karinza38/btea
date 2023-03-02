@@ -1,4 +1,7 @@
-[![hello world](https://octodex.github.com/images/original.png)](https://octodex.github.com/)
+<!-- [![hello world](https://octodex.github.com/images/original.png)](https://octodex.github.com/) -->
+<div align=center>
+  <img src="https://octodex.github.com/images/original.png" width="150px" height="150px" center />
+</div>
 <!-- ### Hi there 👋 -->
 <!--
 [![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=btea&show_icons=true&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
