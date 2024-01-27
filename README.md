@@ -1,6 +1,7 @@
 <!-- [![hello world](https://octodex.github.com/images/original.png)](https://octodex.github.com/) -->
 <div align=center>
-  <img src="https://octodex.github.com/images/original.png" width="150px" height="150px" center />
+  人生如棋，落子无悔。
+<!--   <img src="https://octodex.github.com/images/original.png" width="150px" height="150px" center /> -->
 </div>
 <!-- ### Hi there 👋 -->
 <!--
